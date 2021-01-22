@@ -15,3 +15,6 @@ package-install:
 
 lint:
 	poetry run flake8 brain_games
+
+git:
+	git add --all && git commit -m '$M' && git push
