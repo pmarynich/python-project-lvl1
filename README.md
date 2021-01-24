@@ -15,3 +15,6 @@
 
 ### 7th stage test record:
 [![asciicast](https://asciinema.org/a/B4OUcZqoQ5S6fA1wqenr9crwn.svg)](https://asciinema.org/a/B4OUcZqoQ5S6fA1wqenr9crwn)
+
+### 8th stage test record:
+[![asciicast](https://asciinema.org/a/jiSnbJ4Ho7QVLa5oI1bnxwHsB.svg)](https://asciinema.org/a/jiSnbJ4Ho7QVLa5oI1bnxwHsB) 
