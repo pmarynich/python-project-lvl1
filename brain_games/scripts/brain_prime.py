@@ -22,7 +22,9 @@ def main():
         if str(result) == str(answer):
             print('Correct!')
         elif result != answer:
-            print("'" + str(answer) + "' is wrong answer ;(. Correct answer was '" + str(result) + "'.")
+            print("'" + str(
+                answer) + "' is wrong answer ;(. Correct answer was '" + str(
+                    result) + "'.")
             print("Let's try again, " + name + '!')
             return None
     print('Congratulations, ' + name + '!')

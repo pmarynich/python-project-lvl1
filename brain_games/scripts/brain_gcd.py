@@ -25,7 +25,9 @@ def main():
         if str(gcd) == str(answer):
             print('Correct!')
         elif gcd != answer:
-            print("'" + str(answer) + "' is wrong answer ;(. Correct answer was '" + str(gcd) + "'.")
+            print("'" + str(
+                answer) + "' is wrong answer ;(. Correct answer was '" + str(
+                    gcd) + "'.")
             print("Let's try again, " + name + '!')
             return None
         index += 1

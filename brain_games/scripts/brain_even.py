@@ -13,7 +13,8 @@ def main():
         question = random.randrange(1, 100)
         print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
-        if (question % 2 == 0 and answer == 'yes') or (question % 2 == 1 and answer == 'no'):
+        if (question % 2 == 0 and answer == 'yes')\
+                or (question % 2 == 1 and answer == 'no'):
             print('Correct!')
         else:
             right = ''

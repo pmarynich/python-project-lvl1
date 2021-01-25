@@ -29,7 +29,9 @@ def main():
         if str(secret) == str(answer):
             print('Correct!')
         elif str(secret) != str(answer):
-            print("'" + str(answer) + "' is wrong answer ;(. Correct answer was '" + str(secret) + "'.")
+            print("'" + str(
+                answer) + "' is wrong answer ;(. Correct answer was '" + str(
+                    secret) + "'.")
             print("Let's try again, " + name + '!')
             return None
 
