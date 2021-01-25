@@ -29,7 +29,7 @@ def main():
             print("Let's try again, " + name + '!')
             return None
         index += 1
-    print('Congratulation, ' + name + '!')
+    print('Congratulations, ' + name + '!')
 
 
 if __name__ == '__main__':
