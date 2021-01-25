@@ -15,7 +15,7 @@ def main():
         ops = ['+', '-', '*']
         operation = random.choice(ops)
         result = eval(str(first_number) + operation + str(second_number))
-        question = str(first_number) + operation + str(second_number)
+        question = str(first_number) + ' ' + operation + ' ' + str(second_number)
         print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
         if str(result) == str(answer):
