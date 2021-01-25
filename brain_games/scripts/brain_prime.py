@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sympy
 import prompt
 import random
 
@@ -15,7 +14,7 @@ def main():
         question = random.randrange(1, 100)
         print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
-        result_bool = sympy.isprime(question)
+        result_bool = isPrime(question)
         if result_bool is False:
             result = 'no'
         else:
@@ -27,6 +26,15 @@ def main():
             print("Let's try again, " + name + '!')
             return None
     print('Congratulation, ' + name + '!')
+
+
+def isPrime(question):
+    if question % 2 == 0:
+        return question == 2
+    d = 3
+    while d * d <= question and question % d != 0:
+        d += 2
+    return d * d > question
 
 
 if __name__ == '__main__':
